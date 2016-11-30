@@ -1,0 +1,129 @@
+---
+layout: page
+title: "About Me"
+description: "我是沈文龙"
+header-img: "img/bg/about.jpg"
+---
+
+<!-- Language Selector -->
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--copied from markdown -->
+    <blockquote><p>不宠无惊过一生</p></blockquote>
+
+    <p>Hey，我是</p>
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    <blockquote><p>Be happy.</p></blockquote>
+
+    <p></p>
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
+
+
+{% if site.duoshuo_share && site.duoshuo_username %}
+<!-- 多说 Share start -->
+<div class="ds-share"
+      style="text-align: right"
+      data-thread-key="{{page.id}}"
+      data-title="{{page.title}}"
+      data-url="{{site.url}}{{site.baseurl}}{{page.url}}"
+      data-images="{{ site.url }}{{site.baseurl}}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
+      data-content="{{ content | strip_html | truncate:80 }} | {{ site.SEOTitle }} " >
+      <div class="ds-share-inline">
+         <style> 
+            .ds-share-icons-16 {display:none;} 
+         </style>
+      <ul class="ds-share-icons-16">
+        <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
+        <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+        <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
+        <li><a class="ds-douban flat" href="javascript:void(0);" data-service="douban">豆瓣</a></li>
+      </ul>
+      <div class="ds-share-icons-more">
+      </div>
+    </div>
+<hr>
+</div>
+<!-- 多说 Share end-->
+{% endif %}
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<div class="comment">
+	<div class="ds-thread"
+		data-thread-key="{{page.id}}"
+             data-title="{{page.title}}"
+             data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
+       </div>
+</div>
+<!-- 多说评论框 end -->
+{% endif %}
+
+{% if site.duoshuo_username %}
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User by Hux
+    var _user = '{{site.duoshuo_username}}';
+
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}

@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "Welcome to Wenlong Shen's Blog"
+subtitle:   "不宠无惊过一生"
+date:       2016-11-30
+author:     "Wenlong Shen"
+header-img: "img/post/2016_1.jpg"
+tags: 生活 2016
+---
+
+> In the end, it's not the years in your life that count. It's the life in your years.  
+> <p style="text-align:right;"> — Abraham Lincoln </p>
+
+
+### 一步两步三四步
+
+许久没有认真地去写东西，很多心情与往事都无法清晰地回忆起来，道一声再见，也许再也不见，只是想把自己记录下来，惟愿不忘初心。

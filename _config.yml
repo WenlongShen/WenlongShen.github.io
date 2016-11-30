@@ -1,0 +1,86 @@
+# Site settings
+title: Wenlong Shen's Blog
+SEOTitle: 沈文龙的博客 | Wenlong Shen's Blog
+header-img: img/bg/home.jpg
+email: shenwl1988@gmail.com
+description: ""
+keyword: ""
+url: "https://wenlongshen.github.io"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+# SNS settings
+RSS: false
+weibo_username:    2517170031 # llArcherll
+linkedin_username: wenlong-shen-2247a333
+#twitter_username:  
+#facebook_username:  
+zhihu_username:     wenlongshen
+github_username:    WenlongShen
+kaggle_username:  shenwenlong
+researchgate_username: Wenlong_Shen2
+
+
+# Build settings
+highlighter: rouge
+permalink: pretty
+paginate: 7
+exclude: ["README.md"]
+anchorjs: false       # if you want to customize anchor. check out line:181 of `post.html`
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: shenwl1988
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+# Analytics settings
+# Baidu Analytics 
+ba_track_id: 9f3496e9ed33d90a3eebca24b16ed870
+
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "修行，入世"
+sidebar-avatar: /img/avatar.jpg
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+# Friends
+friends: [
+    {
+        title: "aqsong's blog",
+        href: "https://aqsong.github.io/"
+    }
+]
