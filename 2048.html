@@ -1,0 +1,91 @@
+---
+title: 2048
+layout: default
+description: Have Fun
+header-img: "img/bg/tag.jpg"
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" id="tag-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<link rel="stylesheet" href="style.css">
+<div class="container">
+    <div class="heading">
+        <div class="scores-container">
+            <div class="score-container">
+                <div class="score-addition"></div>
+            </div>
+            <div class="best-container"></div>
+        </div>
+    </div>
+    <div class="game-container">
+        <div class="game-message">
+            <p>
+            </p>
+            <div class="lower">
+                <a class="keep-playing-button">继续前进</a>
+                <a class="retry-button">再试一次</a>
+                <div class="score-sharing"></div>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-row">
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+                <div class="grid-cell">
+                </div>
+            </div>
+        </div>
+        <div class="tile-container"></div>
+    </div>
+    <div class="above-game">
+        <a class="restart-button">键盘上下左右按键，开始新游戏</a>
+    </div>
+    <script src="bind_polyfill.js"></script>
+</div>
