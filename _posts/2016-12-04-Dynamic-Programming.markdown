@@ -8,13 +8,14 @@ header-img: "img/post/2016_1.jpg"
 tags: 生物信息 2016
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 *好吧，其实这么炸裂的名字既不动态，也无关编程技巧，只是Richard Bellman为了吓唬人而取的，hoho...*
 
 #### 算法思想
 
 动态规划算法在序列比对中有比较广泛的应用，如著名的BLAST、CLUSTALW、MFOLD、PHYLIP等都利用了其核心思想，主要包括三个部分：
+
 * **递归**：将一个大问题转换为多个子问题。对于序列比对来说，长度为$$N$$的两条序列大约有$$2^{2N}/\sqrt{2\pi N}$$种不同的比对方式，这在实际中几乎不可操作，而利用动态规划，将一整条序列变为一个个的碱基进行比对，从计算规模上给予了解决之道。一般性的递归公式为：
 
 $$
