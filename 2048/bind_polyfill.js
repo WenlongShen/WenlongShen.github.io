@@ -314,7 +314,7 @@ HTMLActuator.prototype.clearContainer = function (container) {
 //HTMLActuator.prototype.tileHTML = ["2", "4", "8", "16", "32", "64", "128", "256", "512", "1024", "2048"];
 //HTMLActuator.prototype.tileHTML = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "win"];
 //HTMLActuator.prototype.tileHTML = ["工兵", "班长", "排长", "连长", "营长", "团长", "旅长", "师长", "军长", "司令", "军旗"];
-HTMLActuator.prototype.tileHTML = ["小学", "初中", "中考", "高中", "高考", "本科", "考研", "硕士", "考博", "博士", "博后", "助教", "副教", "教授", "院士"];
+HTMLActuator.prototype.tileHTML = ["学前", "小学", "初中", "中考", "高中", "高考", "本科", "考研", "硕士", "博士", "博后", "讲师", "教授", "院士"];
 
 HTMLActuator.prototype.addTile = function (tile) {
   var self = this;

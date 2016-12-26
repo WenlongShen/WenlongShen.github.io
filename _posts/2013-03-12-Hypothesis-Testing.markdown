@@ -5,7 +5,7 @@ subtitle:   "自己理解，欢迎指正"
 date:       2013-03-12
 author:     "Wenlong Shen"
 header-img: "img/post/2016_1.jpg"
-tags: 理论 2013
+tags: 学习 2013
 ---
 
 *下面这些只是为了便于自己理解，所述语言未必符合统计学描述。*
