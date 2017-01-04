@@ -4,7 +4,7 @@ title:      "关于假设检验的第一类、第二类错误"
 subtitle:   "自己理解，欢迎指正"
 date:       2013-03-12
 author:     "Wenlong Shen"
-header-img: "img/post/2016_1.jpg"
+header-img: "img/bg/2016_1.jpg"
 tags: 学习 2013
 ---
 

@@ -4,7 +4,7 @@ title:      "Welcome to Wenlong Shen's Blog"
 subtitle:   "不宠无惊过一生"
 date:       2016-11-30
 author:     "Wenlong Shen"
-header-img: "img/post/2016_1.jpg"
+header-img: "img/bg/2016_1.jpg"
 tags: 生活 2016
 ---
 

@@ -68,7 +68,7 @@ sidebar-avatar: /img/avatar.jpg
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 3              # A tag will be featured if the size of it is more than this condition value
 
 
 # Progressive Web Apps

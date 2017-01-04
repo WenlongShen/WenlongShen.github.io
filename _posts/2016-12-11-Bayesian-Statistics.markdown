@@ -4,7 +4,7 @@ title:      "Bayesian Statistics"
 subtitle:   "贝叶斯统计"
 date:       2016-12-11
 author:     "Wenlong Shen"
-header-img: "img/post/2016_2.jpg"
+header-img: "img/bg/2016_2.jpg"
 tags: 生物信息 2016
 ---
 
