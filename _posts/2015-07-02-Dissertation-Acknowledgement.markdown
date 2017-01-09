@@ -4,7 +4,7 @@ title:      "博士学位论文致谢"
 subtitle:   "五年一梦"
 date:       2015-07-02
 author:     "Wenlong Shen"
-header-img: "img/bg/2016_1.jpg"
+header-img: "img/bg/2015_1.jpg"
 tags: 生活 2015
 ---
 
