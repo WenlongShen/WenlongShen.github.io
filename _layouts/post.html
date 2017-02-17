@@ -60,6 +60,17 @@ layout: default
 
                 <hr style="visibility: hidden;">
 
+<div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}" style="width: 80px; height: 35px;">
+      <span>打赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat-reward" src="/img/wechat_reward.png" alt="Wenlong WeChat Pay"/>
+        </div>
+   </div>   
+</div>
+
                 {% if site.duoshuo_share and site.duoshuo_username %}
                 <!-- 多说 Share start -->
                 <div class="ds-share"
