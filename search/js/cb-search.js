@@ -22,7 +22,7 @@
             if (data.code == 0) {
                 for (var index in data.data) {
                     var item = data.data[index];
-                    names.push(item.title);
+                    names.push(item.title + "-" + item.content);
                     urls.push(item.url);
                 }
 
@@ -37,6 +37,6 @@
                     }
                 });
             }
-        }).error(function(data, b) { console.log("json解析错误，搜索功能暂不可用，请检查文章标题，确保不含有换行等特殊符号"); });
+        }).error(function(data, b) { console.log("json解析错误，搜索功能暂不可用"); });
 
     });
