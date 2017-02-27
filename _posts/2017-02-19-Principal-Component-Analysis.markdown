@@ -5,7 +5,7 @@ subtitle:   "主成分分析"
 date:       2017-02-19
 author:     "Wenlong Shen"
 header-img: "img/bg/2017_2.jpg"
-tags: 生物信息 2017
+tags: 生物信息 算法 2017
 ---
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>

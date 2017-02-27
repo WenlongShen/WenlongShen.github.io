@@ -5,7 +5,7 @@ subtitle:   "动态规划算法"
 date:       2016-12-04
 author:     "Wenlong Shen"
 header-img: "img/bg/2016_2.jpg"
-tags: 生物信息 2016
+tags: 生物信息 算法 2016
 ---
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>

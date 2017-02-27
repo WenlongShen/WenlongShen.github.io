@@ -16,4 +16,5 @@ https://wenlongshen.github.io/2017/01/15/Bayesian-Networks/
 https://wenlongshen.github.io/2017/01/22/DNA-Motif/
 https://wenlongshen.github.io/2017/02/12/Support-Vector-Machine/
 https://wenlongshen.github.io/2017/02/19/Principal-Component-Analysis/
+https://wenlongshen.github.io/2017/02/21/Linux-Troubleshooting/
 https://wenlongshen.github.io/
