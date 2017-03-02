@@ -10,7 +10,7 @@ tags: 计算机 2017
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
-*OS：Ubuntu16.04，不定期更新...*
+*OS：Ubuntu16.04(64bit)，不定期更新...*
 
 1. 
 **Q**：编译时出现cannot find lz错误  
