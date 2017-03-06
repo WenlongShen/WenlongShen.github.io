@@ -18,4 +18,5 @@ https://wenlongshen.github.io/2017/02/12/SVM/
 https://wenlongshen.github.io/2017/02/19/PCA/
 https://wenlongshen.github.io/2017/02/21/Linux-Troubleshooting/
 https://wenlongshen.github.io/2017/02/26/EM/
+https://wenlongshen.github.io/2017/03/02/Windows-Troubleshooting/
 https://wenlongshen.github.io/
