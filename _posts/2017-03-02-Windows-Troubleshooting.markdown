@@ -10,7 +10,7 @@ tags: 计算机 2017
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
-*OS：Windows7(64bit)，不定期更新...*
+*OS：Windows7（64bit），不定期更新...*
 
 1. 
 **Q**：下载Chrome离线安装包  
