@@ -19,3 +19,7 @@ tags: 计算机 2017
 2. 
 **Q**：Adobe Flash Player全版本通用安装  
 **A**：https://get.adobe.com/cn/flashplayer/otherversions/  
+
+3. 
+**Q**：设置Sublime Text 3中Terminal插件启动CMD  
+**A**：Terminal默认为PowerShell，需要在Preferences->Package Settings->Terminal->Settings中更改设置`"terminal": "C:\\Windows\\System32\\cmd.exe"`  
