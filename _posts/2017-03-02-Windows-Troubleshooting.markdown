@@ -22,4 +22,4 @@ tags: 计算机 2017
 
 3. 
 **Q**：设置Sublime Text 3中Terminal插件启动CMD  
-**A**：Terminal默认为PowerShell，需要在Preferences->Package Settings->Terminal->Settings中更改设置`"terminal": "C:\\Windows\\System32\\cmd.exe"`  
+**A**：Terminal默认启动PowerShell，需要在Preferences->Package Settings->Terminal->Settings中更改设置`"terminal": "C:\\Windows\\System32\\cmd.exe"`  
