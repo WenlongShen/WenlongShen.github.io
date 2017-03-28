@@ -66,6 +66,9 @@ featured-condition-size: 5              # A tag will be featured if the size of 
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
+# Contact
+contact: true
+email: shenwl1988@163.com
 
 # Friends
 friends: [

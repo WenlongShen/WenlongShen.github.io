@@ -137,14 +137,14 @@ layout: default
                 </section>
                 {% endif %}
 
-                <!-- Friends Blog -->
-                {% if site.friends %}
+			<!-- Contact Me -->
+                {% if site.contact %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>CONTACT ME</h5>
                 <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a target="_blank" href="{{friend.href}}">{{friend.title}}</a></li>
-                    {% endfor %}
+                    {% if site.email %}
+                        <li>{{site.email}}</li>
+                    {% endif %}
                 </ul>
                 {% endif %}
             </div>
