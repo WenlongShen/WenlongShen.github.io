@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "The ASA's Statement on p-Values"
+subtitle:   "美国统计协会吐槽p值"
+date:       2017-04-23
+author:     "Wenlong Shen"
+header-img: "img/bg/2017_4.jpg"
+tags: 统计学 2017
+---
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+*Q: Why do so many colleges and grad schools teach p = 0.05?  
+A: Because that's still what the scientific community and journal editors use.  
+Q: Why do so many people still use p = 0.05?  
+A: Because that's what they were taught in college or grad school.*
+
+#### What is a p-Value?
+
+Informally, a p-value is the probability under a specified statistical model that a statistical summary of the data (e.g., the sample mean difference between two compared groups) would be equal to or more extreme than its observed value.
+
+#### Principles
+
+1. P-values can indicate how incompatible the data are with a specified statistical model.
+2. P-values do not measure the probability that the studied hypothesis is true, or the probability that the data were produced by random chance alone.
+3. Scientific conclusions and business or policy decisions should not be based only on whether a p-value passes a specific threshold.
+4. Proper inference requires full reporting and transparency
+5. A p-value, or statistical significance, does not measure the size of an effect or the importance of a result.
+6. By itself, a p-value does not provide a good measure of evidence regarding a model or hypothesis.
