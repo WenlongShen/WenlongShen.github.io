@@ -23,3 +23,7 @@ tags: 计算机 2017
 **A**：Terminal默认启动PowerShell，需要在Preferences->Package Settings->Terminal->Settings中更改设置`"terminal": "C:\\Windows\\System32\\cmd.exe"`  
 **Q**：关闭自动打开上次文件  
 **A**：Preferences->Settings中添加"hot_exit": false  
+
+**3. Windows 10免费升级**  
+**Q**：错过官方的免费升级  
+**A**：看这里https://www.microsoft.com/zh-cn/accessibility/windows10upgrade  
