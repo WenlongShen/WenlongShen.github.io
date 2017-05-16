@@ -2,10 +2,10 @@
 layout:     post
 title:      "Windows Troubleshooting"
 subtitle:   "Windows常见问题解决办法整理"
-date:       2017-03-02
+date:       2010-01-01
 author:     "Wenlong Shen"
 header-img: "img/bg/2017_3.jpg"
-tags: 计算机 2017
+tags: 计算机
 ---
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>

@@ -70,6 +70,10 @@ service-worker: true
 contact: true
 email: shenwl1988@163.com
 
+# Comments
+disqus_username: https-wenlongshen-github-io
+
+
 # Friends
 friends: [
     {
