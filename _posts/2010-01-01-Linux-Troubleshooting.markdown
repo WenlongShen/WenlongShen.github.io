@@ -18,7 +18,7 @@ tags: 计算机
 
 2. 
 **Q**：更改全局环境变量  
-**A**：/etc/environment  
+**A**：/etc/environment（CentOS下source /etc/environment或者/etc/profile莫名无效，可尝试/etc/bashrc）  
 
 3. 
 **Q**：CPAN中安装GD出现错误：No success on command[/usr/bin/perl Build.PL --installdirs site]  
