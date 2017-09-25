@@ -16,7 +16,7 @@ tags: 生物信息 软件 可视化 2017
 
 最详尽的介绍和资料都在<a href="http://circos.ca/" target="_blank">官网</a>，可以在<a href="http://circos.ca/software/download/circos/" target="_blank">这里</a>下载到最新的Circos软件包。我使用的版本号为0.69，操作系统为Ubuntu16.04（xenial，64bit），Windows下配置略有不同，可参考官方说明。
 
-Circos本身是基于Perl的，所以不需要编译安装。解压下载的软件包到你想要存放的位置，将circos/bin加入环境变量即可。通过`circos -modules`命令可以查看相关Perl模块的安装情况，容易出问题的主要是GD，在CPAN中直接安装GD可能出现错误：No success on command[/usr/bin/perl Build.PL --installdirs site]，可以手动下载编译GD包，不过个人建议直接安装Ubuntu的libgd-perl包。
+Circos本身是基于Perl的，所以不需要编译安装。解压下载的软件包到你想要存放的位置，并将circos/bin加入环境变量即可。通过`circos -modules`命令可以查看相关Perl模块的安装情况。Linux下CPAN可以通过`$ sudo perl -MCPAN -e shell`进入，然后执行install命令安装相应模块。容易出问题的主要是GD，在CPAN中直接安装GD可能出现错误：No success on command[/usr/bin/perl Build.PL --installdirs site]，可以手动下载编译GD包，不过个人建议直接安装Ubuntu的libgd-perl包。
 
 #### 运行demo
 
