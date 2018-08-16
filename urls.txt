@@ -21,4 +21,12 @@ https://wenlongshen.github.io/2017/02/26/EM/
 https://wenlongshen.github.io/2017/03/02/Windows-Troubleshooting/
 https://wenlongshen.github.io/2017/03/05/SNP/
 https://wenlongshen.github.io/2017/03/12/Multiple-Testing-Correction/
-https://wenlongshen.github.io/
+https://wenlongshen.github.io/2017/03/19/Circos-1/
+https://wenlongshen.github.io/2017/03/22/Circos-2/
+https://wenlongshen.github.io/2017/03/26/Circos-3/
+https://wenlongshen.github.io/2017/03/29/Circos-4/
+https://wenlongshen.github.io/2017/04/23/P-ASA/
+https://wenlongshen.github.io/2017/05/09/Gone-Closet/
+https://wenlongshen.github.io/2017/08/22/NGS/
+https://wenlongshen.github.io/2017/12/21/Transposable-Elements/
+https://wenlongshen.github.io/2018/02/02/Phylogenetic-Trees/
