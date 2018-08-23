@@ -42,3 +42,6 @@ tags: 计算机
 `ln -s /lib/systemd/system/rc.local.service /etc/systemd/system/`  
 在/etc/systemd/system目录下创建软链接即可  
 
+6. 
+**Q**：root下使用gedit出现Gtk-WARNING **: cannot open display  
+**A**：这是由于Xserver在默认情况下不允许其他用户的图形显示在当前屏幕上，因而需要在当前登陆用户身份下，命令行执行`xhost +`  

@@ -1,0 +1,40 @@
+---
+layout:     post
+title:      "关于RPKM/FPKM和TPM"
+subtitle:   "RNA-Seq数据的标准化"
+date:       2018-04-10
+author:     "Wenlong Shen"
+header-img: "img/bg/2018_2.jpg"
+tags: 生物信息 2018
+---
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+*These three metrics attempt to normalize for sequencing depth and gene length.*
+
+测序数据的标准化/归一化是生物信息学分析的必要步骤，可根据生物问题或是技术手段的不同而采取不同的策略进行。对于RNA-seq，常见的标准化手段有RPKM (Reads Per Kilobase per Million mapped reads) / FPKM (Fragments Per Kilobase per Million mapped reads) 和TPM (Transcripts Per Kilobase per Million mapped reads)。
+
+#### RPKM/FPKM
+
+这两个指标最为常见，其计算公式基本相同，唯一区别在于：R是reads，F是fragments，即对于单端测序来说，二者相同；而对于双端测序，FPKM将两端的reads当作一个fragment，只计算比对到同一转录本的数量。具体公式如下：
+
+$$RPKM/FPKM=\frac{n_{r/f}}{\frac{N}{10^6}\frac{L}{10^3}}=\frac{10^9\times n_{r/f}}{N\times L}$$
+
+其中，$$n_{r/f}$$表示比对至目的基因的reads/fragments数目，N是有效比对至基因组的reads/fragments总数，L是基因转录本长度。这种计算方式简单直观地解决了RNA-seq的两个偏性：测序深度越深，基因转录本长度越长，则测序得到的读数越多。
+
+对一个样本内部来说，这个指标没有太大问题，但实际应用中，我们需要对比多个样本之间基因的表达差异，这时候就发现，RPKM/FPKM在样本之间无法通用计算，仔细看其公式就能知道，L一般是固定的，而$$n_{r/f}$$和N并没有直接的相关性，比如我有两个样本，基因A的FPKM值在样本1中为3，在样本2中也为3，很明显地，由于原始测序量N不同，其转录本丰度所占比例应该是不同的。
+
+#### TPM
+
+为了设定一个更加合理的标准化方法来描述RNA转录本的丰度，B. Li和C. Dewey在2011年文章中提出了TPM，计算公式如下：
+
+$$TPM=\frac{\frac{n_{r/f}}{\frac{L}{10^3}}}{\sum_{g=i}^G(\frac{n_{r/f}}{\frac{L_i}{10^3}})_i\div10^6}=\frac{10^6\times\frac{n_{r/f}}{L}}{\sum_{g=i}^G(\frac{n_{r/f}}{L})_i}$$
+
+由于L是固定的，TPM的值只与$$n_{r/f}$$即转录读数相关，以前面例子中的两个样本，若基因A的TPM值在样本1中为3，在样本2中也为3，说明该基因表达丰度是一致的。
+
+#### ？！
+
+RPKM/FPKM存在的问题归根结底在于其缺乏生物学意义，或者说是对科学问题缺乏分析，仅仅进行简单空洞的标准化处理显然是不符合科学逻辑的，然而大批研究者的思维惰性更是导致错误算法的泛滥（不愿深入思考探索，哪个简单就用哪个，用惯了就不愿换）。
+
+当引以为戒。
+
