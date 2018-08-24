@@ -2,7 +2,7 @@
 layout:     post
 title:      "Phylogenetic Trees"
 subtitle:   "系统发生树"
-date:       2018-02-02
+date:       2018-01-13
 author:     "Wenlong Shen"
 header-img: "img/bg/2018_1.jpg"
 tags: 基因组 进化 2018

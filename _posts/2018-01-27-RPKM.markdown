@@ -2,7 +2,7 @@
 layout:     post
 title:      "关于RPKM/FPKM和TPM"
 subtitle:   "RNA-Seq数据的标准化"
-date:       2018-04-10
+date:       2018-01-27
 author:     "Wenlong Shen"
 header-img: "img/bg/2018_2.jpg"
 tags: 生物信息 2018
