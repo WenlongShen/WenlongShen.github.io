@@ -33,3 +33,5 @@ https://wenlongshen.github.io/2017/08/22/NGS/
 https://wenlongshen.github.io/2017/12/21/Transposable-Elements/
 https://wenlongshen.github.io/2018/01/13/Phylogenetic-Trees/
 https://wenlongshen.github.io/2018/01/27/RPKM/
+https://wenlongshen.github.io/2018/04/07/Deep-Learning-Book-1/
+https://wenlongshen.github.io/2018/08/29/30/
