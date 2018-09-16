@@ -4,6 +4,10 @@ https://wenlongshen.github.io/resume/
 https://wenlongshen.github.io/tags/
 https://wenlongshen.github.io/about/
 
+https://wenlongshen.github.io/2010/01/01/Linux-Troubleshooting/
+https://wenlongshen.github.io/2010/01/01/Windows-Troubleshooting/
+https://wenlongshen.github.io/2010/11/24/Remember-Me-1/
+https://wenlongshen.github.io/2012/04/02/Simplicity/
 https://wenlongshen.github.io/2013/03/12/Hypothesis-Testing/
 https://wenlongshen.github.io/2015/07/02/Dissertation-Acknowledgement/
 https://wenlongshen.github.io/2016/11/30/Hello/
@@ -16,9 +20,7 @@ https://wenlongshen.github.io/2017/01/15/Bayesian-Networks/
 https://wenlongshen.github.io/2017/01/22/DNA-Motif/
 https://wenlongshen.github.io/2017/02/12/SVM/
 https://wenlongshen.github.io/2017/02/19/PCA/
-https://wenlongshen.github.io/2017/02/21/Linux-Troubleshooting/
 https://wenlongshen.github.io/2017/02/26/EM/
-https://wenlongshen.github.io/2017/03/02/Windows-Troubleshooting/
 https://wenlongshen.github.io/2017/03/05/SNP/
 https://wenlongshen.github.io/2017/03/12/Multiple-Testing-Correction/
 https://wenlongshen.github.io/2017/03/19/Circos-1/
@@ -29,4 +31,7 @@ https://wenlongshen.github.io/2017/04/23/P-ASA/
 https://wenlongshen.github.io/2017/05/09/Gone-Closet/
 https://wenlongshen.github.io/2017/08/22/NGS/
 https://wenlongshen.github.io/2017/12/21/Transposable-Elements/
-https://wenlongshen.github.io/2018/02/02/Phylogenetic-Trees/
+https://wenlongshen.github.io/2018/01/13/Phylogenetic-Trees/
+https://wenlongshen.github.io/2018/01/27/RPKM/
+https://wenlongshen.github.io/2018/04/07/Deep-Learning-Book-1/
+https://wenlongshen.github.io/2018/08/29/30/
