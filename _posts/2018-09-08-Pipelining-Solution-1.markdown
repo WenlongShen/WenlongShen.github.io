@@ -116,7 +116,7 @@ tags: 生物信息 数据分析 流程 2018
 
 	docker run --rm -v /home/wenlong/Data/:/data/ biocontainers/bowtie2 bowtie2 -x /data/hg19index/hg19 -1 /data/test.r1.gz -2 /data/test.r2.gz -S /data/test.sam
 
-其中`--rm`使得该容器退出后自动删除，`-v`进行文件夹的挂载，bowtie2生成的比对文件将出现在本地`/home/wenlong/Data`下，注意biocontainers构建这个镜像时使用了`CMD ["bowtie2"]`，所以`-it`在这里没有意义。
+其中`--rm`使得该容器退出后自动删除，`-v`进行文件夹的挂载，bowtie2生成的比对文件将出现在本地`/home/wenlong/Data`下，注意biocontainers构建这个镜像时使用了`CMD ["bowtie2"]`，所以想要交互终端的话得使用`docker run -it biocontainers/bowtie2 /bin/bash`。
 
 #### Docker化
 
@@ -167,7 +167,7 @@ tags: 生物信息 数据分析 流程 2018
 		cd .. && \
 		rm -rf MACS2-2.1.1.20160309
 
-接下来执行`docker build -t macs2:ubuntu.v1 .`，其中`:`前面为镜像名称，后面为TAG，`.`表示当前目录，也可以使用全路径，目的就是找到Dockerfile文件。由于需要网络环境，所以整体过程可能较慢。构建成功后，可docker images`查看。下面我们尝试使用该镜像：
+接下来执行`docker build -t macs2:ubuntu.v1 .`，其中`:`前面为镜像名称，后面为TAG，`.`表示当前目录，也可以使用全路径，目的就是找到Dockerfile文件。由于需要网络环境，所以整体过程可能较慢。构建成功后，可`docker images`查看。下面我们尝试使用该镜像：
 
 	docker run --rm -v /home/wenlong/Data/:/data/ macs2:ubuntu.v1 macs2 callpeak -t /data/test.sam -f SAM -n test --outdir /data/macs2_result
 
