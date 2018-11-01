@@ -10,7 +10,7 @@ tags: 机器学习 读书笔记 2018
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
-*公式推导好看，数值计算好用*
+*公式推导好看，数值计算好用。*
 
 #### 上溢和下溢
 
