@@ -78,7 +78,7 @@ command和output主要位于task模块内，一个指明了要进行哪些命令
 
 #### 实例
 
-我们接上一篇中用到的两个docker，构建一个简单的ChIP-seq数据分析流程（注意这里只做了mapping和peak calling，并不是完整的流程）。我们把WDL相关工具放在`/home/wenlong/WDL/`下，数据放在`/home/wenlong/Data/`下。注意目前WDL相关功能还在完善，比如生成hash code会在指定bowtie2的index时造成一些麻烦（bowtie2 -x参数是index名字，而非实际文件，而WDL使用docker时，由于有hash code而难以指定index名字，故我暂时调整docker，在原工作目录`/data`下加入hg19的bowtie2 index。后续再研究研究别的方法。同时要注意现在WDL需要docker image有sha256）。构建WDL脚本`ChIPseq_demo.wdl`如下：
+我们接上一篇中用到的两个docker，构建一个简单的ChIP-seq数据分析流程（注意这里只做了mapping和peak calling，并不是完整的流程）。我们把WDL相关工具放在`/home/wenlong/WDL/`下，数据放在`/home/wenlong/Data/`下。注意目前WDL相关功能还在完善，比如生成hash code会在指定bowtie2的index时造成一些麻烦（bowtie2 -x参数是index名字，而非实际文件，而WDL使用docker时，由于有hash code而难以指定index名字，故我暂时调整docker，在原工作目录`/data`下加入hg19的bowtie2 index。后续再研究研究别的方法。同时要注意现在WDL需要docker image有digest）。构建WDL脚本`ChIPseq_demo.wdl`如下：
 
 	## Copyright Wenlong Shen, 2018
 	##
@@ -196,6 +196,6 @@ command和output主要位于task模块内，一个指明了要进行哪些命令
 	
 	java -jar cromwell-35.jar run ChIPseq_demo.wdl --inputs ChIPseq_demo.inputs.json
 
-终端打印相关信息，最终成功生成peaks文件。
+终端打印相关信息，最终成功生成peaks文件，注意如果本地没有相应docker image的话，会自动从网上pull（由于WDL使用digest的方式，pull下来的image没有tag）。
 
 总体来说，WDL结构略复杂，槽点很多，容易出错，调试较麻烦，但依然不失为科学共同体杰出的流程化语言，值得学习、推广应用。
