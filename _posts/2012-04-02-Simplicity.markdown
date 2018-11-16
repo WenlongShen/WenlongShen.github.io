@@ -5,7 +5,7 @@ subtitle:   "简洁"
 date:       2012-04-02
 author:     "Wenlong Shen"
 header-img: "img/bg/2013_1.jpg"
-tags: 学习 2012
+tags: 生活 2012
 ---
 
 Everything should be made as simple as possible, but not simpler. (Einstein)

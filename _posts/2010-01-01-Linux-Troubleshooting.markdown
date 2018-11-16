@@ -45,3 +45,7 @@ tags: 计算机
 6. 
 **Q**：root下使用gedit出现Gtk-WARNING: cannot open display  
 **A**：这是由于Xserver在默认情况下不允许其他用户的图形显示在当前屏幕上，因而需要在当前登陆用户身份下，命令行执行`xhost +`  
+
+7. 
+**Q**：无法启动，文件系统需修复，出现The root filesystem on /dev/sda1 requires a manual fsck  
+**A**：`(initramfs) fsck /dev/sda1`随后一路回车，最后重启即可  
