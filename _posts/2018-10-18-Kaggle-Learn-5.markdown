@@ -5,7 +5,7 @@ subtitle:   "Data Visualisation"
 date:       2018-10-18
 author:     "Wenlong Shen"
 header-img: "img/bg/2018_6.jpg"
-tags: 机器学习 读书笔记 2018
+tags: 机器学习 读书笔记 Kaggle 2018
 ---
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
