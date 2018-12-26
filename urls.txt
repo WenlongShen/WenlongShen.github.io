@@ -52,6 +52,7 @@ https://wenlongshen.github.io/2018/06/23/Deep-Learning-Book-16/
 https://wenlongshen.github.io/2018/06/30/Deep-Learning-Book-17/
 https://wenlongshen.github.io/2018/07/07/Deep-Learning-Book-18/
 https://wenlongshen.github.io/2018/07/14/Deep-Learning-Book-19/
+https://wenlongshen.github.io/2018/08/18/Deep-Learning-Book-20/
 https://wenlongshen.github.io/2018/08/29/30/
 https://wenlongshen.github.io/2018/09/08/Pipelining-Solution-1/
 https://wenlongshen.github.io/2018/09/15/Pipelining-Solution-2/
@@ -63,3 +64,4 @@ https://wenlongshen.github.io/2018/10/18/Kaggle-Learn-5/
 https://wenlongshen.github.io/2018/10/24/Shenzhen/
 https://wenlongshen.github.io/2018/11/15/Feature-Importance/
 https://wenlongshen.github.io/2018/11/26/Dad-Birthday/
+https://wenlongshen.github.io/2018/12/21/Walks-Titanic/

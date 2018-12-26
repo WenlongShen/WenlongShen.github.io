@@ -49,3 +49,7 @@ tags: 计算机
 7. 
 **Q**：无法启动，文件系统需修复，出现The root filesystem on /dev/sda1 requires a manual fsck  
 **A**：`(initramfs) fsck /dev/sda1`随后一路回车，最后重启即可  
+
+8. 
+**Q**：Linux远程连接  
+**A**：首推TeamViewer。另一种选择是VNC，建议在<a href="https://www.realvnc.com/" target="_blank">realvnc</a>注册并下载相应系统的server和viewer安装包。在Linux下安装server后，使用`vnclicensewiz`命令设置好账号和密码，然后`service vncserver-x11-serviced start`开启服务，建议将这一命令加入开机启动，参见上面第5条  
