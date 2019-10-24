@@ -36,3 +36,7 @@ tags: 计算机
 **Q**：更改package默认安装路径  
 **A**：更改R安装路径下etc文件夹中的Rprofile.site文件。可使用`myPaths <- .libPaths()`获取当前系统路径信息，通过更改myPaths，如`myPaths <- c(myPaths[2], myPaths[1])`来更改默认安装路径顺序，第一个为默认值，最后`.libPaths(myPaths)`完成修改。
 
+**6. 其它问题**  
+**Q**：系统卡在”配置Windows Update失败，还原更改“  
+**A**：利用PE或者系统盘，删除文件Windows\winsxs\pending.xml，重启后短时等待即可。
+
