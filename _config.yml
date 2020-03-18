@@ -72,7 +72,17 @@ contact: true
 email: shenwl1988@163.com
 
 # Comments
-disqus_username: https-wenlongshen-github-io
+comments:
+  disqus: false
+  disqus_username: https-wenlongshen-github-io
+
+  gitalk: true
+  gitalk_clientID: '6efc0e62a79258590bc8'
+  gitalk_Secret: '39ed240369e743083f46f5855bf7869fe079d4d3'
+  gitalk_repo: 'wenlongshen.github.io'
+  gitalk_owner: 'wenlongshen'
+  gitalk_admin: ['wenlongshen']
+  distractionFreeMode: true
 
 
 # Friends

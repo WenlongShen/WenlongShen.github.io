@@ -147,12 +147,12 @@ layout: default
                 </ul>
                 {% endif %}
                 
-                {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
-                <!-- disqus 评论框 end -->
+                {% if site.comments.gitalk %}
+	                <!-- disqus 评论框 start -->
+	                <div class="comment">
+	                    <div id="disqus_thread" class="disqus-thread"></div>
+	                </div>
+	                <!-- disqus 评论框 end -->
                 {% endif %}
                 
             </div>
@@ -160,9 +160,29 @@ layout: default
     </div>
 </article>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<!-- or -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
+{% if site.comments.gitalk %}
+    <script>
+        var gitalk = new Gitalk({
+              clientID: '{{ site.comments.gitalk_clientID }}',
+              clientSecret: '{{ site.comments.gitalk_Secret }}',
+              repo: '{{ site.comments.gitalk_repo }}',
+              owner: '{{ site.comments.gitalk_owner }}',
+              admin: '{{ site.comments.gitalk_admin }}',
+              id: location.pathname.substr(0, 50),      // Ensure uniqueness and length less than 50{{ page.title }}
+              distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
+            })
 
-{% if site.disqus_username %}
+            gitalk.render('disqus_thread')
+    </script>
+{% endif %}
+  
+{% if site.comments.disqus %}
 	<script>
 	var disqus_config = function () {
 		this.page.url = "{{site.url}}{{page.url}}";  // Replace PAGE_URL with your page's canonical URL variable
