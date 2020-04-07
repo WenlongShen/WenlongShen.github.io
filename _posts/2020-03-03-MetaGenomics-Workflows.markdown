@@ -47,7 +47,7 @@ humann2_config --update database_folders nucleotide /opt/biobakery_workflows_dat
 
 #### MetaWRAP
 
-<a href="https://github.com/bxlab/metaWRAP" target="_blank">MetaWRAP</a>整合了基于assembly策略的常用软件工具，让宏基因组数据从质控、到组装、到分类、到功能分析的各个部分，实现一键式、模块化运行。MetaWRAP可以通过conda或者docker安装，数据库需单另<a href="https://github.com/bxlab/metaWRAP/blob/master/installation/database_installation.md" target="_blank">下载</a>。
+<a href="https://github.com/bxlab/metaWRAP" target="_blank">MetaWRAP</a>整合了基于assembly策略的常用软件工具，让宏基因组数据从质控、到组装、到分类、到功能分析的各个部分，实现一键式、模块化运行。MetaWRAP可以通过conda或者docker安装，数据库需单另<a href="https://github.com/bxlab/metaWRAP/blob/master/installation/database_installation.md" target="_blank">下载</a>，并手动修改config-metawrap文件。
 ![metawrap](/img/post/2020_03_03_metawrap.png)
 
 read_qc | 序列质控、接头去除、宿主去除
@@ -61,4 +61,4 @@ reassemble_bins | 利用bin_refinement整合后的bins进一步组装
 classify_bins | 搜索NCBI的nt、tax库进行分类分析
 annotate_bins | 功能注释
 
-要注意的是，MetaWRAP本身存在着些许bug，比如其目前只接受paired-end测序数据，但实际其中一些软件也可接受single-end，这时就需要手动coding了。同时，各工具也在不断升级换代，很多命令或参数可能过时，都需要重新安装或coding，比如Kraken已经有2.0版本了。尽管如此，MetaWRAP依然不失为一款很好的工具流程包，可以为我们的分析带来极大的帮助。
+要注意的是，MetaWRAP本身存在着些许bug，比如其目前只接受paired-end测序数据，但其中一些软件实际也可接受single-end，这时就需要手动coding了。同时，各工具也在不断升级换代，很多命令或参数可能过时，比如Kraken已经有2.0版本了，可以选择重新安装或coding。如果是docker的话，MetaWRAP的相关脚本位于`/usr/local/bin/`下的metawrap-modules和metawrap-scripts文件夹。尽管存在缺点，MetaWRAP依然不失为一款很好的工具流程包，可以为我们的分析带来极大的参考和帮助。
