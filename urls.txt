@@ -68,3 +68,7 @@ https://wenlongshen.github.io/2018/12/21/Walks-Titanic/
 https://wenlongshen.github.io/2019/01/16/Docker-Tensorflow-Cuda/
 https://wenlongshen.github.io/2019/10/22/Death-and-Birth/
 https://wenlongshen.github.io/2020/02/25/MetaGenomics/
+https://wenlongshen.github.io/2020/03/03/MetaGenomics-Workflows/
+https://wenlongshen.github.io/2020/03/26/Reference-Genome/
+https://wenlongshen.github.io/2020/04/08/Unique-Duplicate/
+
