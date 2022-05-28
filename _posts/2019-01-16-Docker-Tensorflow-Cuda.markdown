@@ -8,7 +8,7 @@ header-img: "img/bg/2019_1.jpg"
 tags: 机器学习 数据分析 2019
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 机器学习已是大数据分析的必备手段，我们尝试在Linux（Ubuntu 18.04）下搭建一个基于Docker的Tensorflow+Cuda环境，以用于学习、试验等。
 

@@ -8,7 +8,7 @@ header-img: "img/bg/2018_3.jpg"
 tags: 机器学习 读书笔记 2018
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *线性代数是基础啊，多年未看，重新翻翻书吧。*
 

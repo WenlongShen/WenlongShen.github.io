@@ -8,7 +8,7 @@ header-img: "img/bg/2017_3.jpg"
 tags: 计算机
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *OS：Windows7（64bit），不定期更新...*
 

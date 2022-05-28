@@ -8,7 +8,7 @@ header-img: "img/bg/2017_ngs.jpg"
 tags: NGS 测序 基因组 2017
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *NGS：Next Generation Sequencing。一般地，习惯把454、Solexa、SOLiD为主的测序称为二代，基于单分子或者半导体芯片的称为三代。*
 

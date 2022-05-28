@@ -8,7 +8,7 @@ header-img: "img/bg/2016_2.jpg"
 tags: 生物信息 算法 2016
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *好吧，其实这么炸裂的名字既不动态，也无关编程技巧，只是Richard Bellman为了吓唬人而取的，hoho...*
 

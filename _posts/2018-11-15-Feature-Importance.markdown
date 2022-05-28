@@ -8,7 +8,7 @@ header-img: "img/bg/2018_6.jpg"
 tags: 机器学习 2018
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 当我们训练完一个模型，得到理想的预测结果之后，或许我们还应该问问：哪个特征最为重要，它对模型有什么样的贡献？
 

@@ -8,7 +8,7 @@ header-img: "img/bg/2017_1.jpg"
 tags: 生物信息 2017
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *各位基因，请和谐表达，勿聚众闹事...*
 

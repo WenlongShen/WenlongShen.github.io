@@ -8,7 +8,7 @@ header-img: "img/bg/2018_3.jpg"
 tags: 机器学习 读书笔记 2018
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 许多深度学习的研究前沿均涉及构建输入的概率模型$$p_{model}(x)$$。原则上说，给定任何其他变量的情况下，这样的模型可以使用概率推断来预测其环境中的任何变量。许多这样的模型还具有潜变量$$h$$，进一步地再加上噪声，我们有：
 

@@ -8,7 +8,7 @@ header-img: "img/bg/2018_3.jpg"
 tags: 机器学习 读书笔记 2018
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 许多概率模型（通常是无向图模型）由一个未归一化的概率分布定义，我们必须通过除以配分函数来归一化，以获得一个有效的概率分布。
 

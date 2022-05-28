@@ -8,7 +8,7 @@ header-img: "img/bg/2018_3.jpg"
 tags: 机器学习 读书笔记 2018
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *大脑究竟是如何从非常少的标注样本中学习的？*
 

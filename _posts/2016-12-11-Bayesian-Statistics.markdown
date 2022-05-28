@@ -8,7 +8,7 @@ header-img: "img/bg/2016_2.jpg"
 tags: 算法 2016
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *概率论本身源于人类对于赌博孜孜不倦的追求 -_-! 这个世界是不确定的，生命无处不是概率，也是赌博，我们看到的太少，未知的太多...*
 

@@ -8,7 +8,7 @@ header-img: "img/bg/2018_3.jpg"
 tags: 机器学习 读书笔记 2018
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *深度前馈网络（deep feedforward network），也叫作前馈神经网络（feedforward neural network）或者多层感知机（multilayer perceptron, MLP），是典型的深度学习模型。*
 

@@ -8,7 +8,7 @@ header-img: "img/bg/2017_4.jpg"
 tags: 统计学 算法 2017
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *这么多年了，被p值折磨得死去活来...*
 

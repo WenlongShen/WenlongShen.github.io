@@ -8,7 +8,7 @@ header-img: "img/bg/2018_3.jpg"
 tags: 机器学习 读书笔记 2018
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *这本书<a href="http://www.deeplearningbook.org/" target="_blank">Deep Learning</a>来自Ian Goodfellow，Yoshua Bengio和Aaron Courville，免费开源，且有<a href="https://github.com/exacity" target="_blank">github中文版</a>，是一本不可多得的机器学习教材，在这里留下学习笔记以勉励自己。*
 

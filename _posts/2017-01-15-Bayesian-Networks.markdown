@@ -8,7 +8,7 @@ header-img: "img/bg/2017_1.jpg"
 tags: 生物信息 算法 2017
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *互相依赖又互相独立，生物网络在混沌之中维持着平衡，一切皆是概率，一切皆有分布...*
 

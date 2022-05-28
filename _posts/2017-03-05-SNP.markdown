@@ -8,7 +8,7 @@ header-img: "img/bg/2017_2.jpg"
 tags: 生物信息 基因组 2017
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *一样又不一样，不一样的也不一样，人与人之间因微妙的DNA差异而变得不同...*
 

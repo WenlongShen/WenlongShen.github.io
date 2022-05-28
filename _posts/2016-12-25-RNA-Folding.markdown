@@ -8,7 +8,7 @@ header-img: "img/bg/2016_2.jpg"
 tags: 生物信息 2016
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *DNA靠序列传递信息，Protein靠结构发挥功能，RNA却序列、结构两手抓...*
 

@@ -8,7 +8,7 @@ header-img: "img/bg/2018_1.jpg"
 tags: 基因组 进化 2018
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *一灯长夜佛前明，庭树枝多宿鸟争*
 

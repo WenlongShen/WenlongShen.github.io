@@ -8,7 +8,7 @@ header-img: "img/bg/2018_5.jpg"
 tags: 生物信息 数据分析 流程 2018
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *Build, Manage and Secure Your Apps Anywhere. Your Way.*
 

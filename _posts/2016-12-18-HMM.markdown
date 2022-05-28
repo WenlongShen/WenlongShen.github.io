@@ -8,7 +8,7 @@ header-img: "img/bg/2016_2.jpg"
 tags: 生物信息 算法 2016
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
 
 *我女朋友是双子座的，有好多好多人格（隐藏状态），不同人格下都有各种各样的表现（观测状态），如果她今天的状态只跟昨天相关（一阶、齐次），那么这就是个HMM...*
 
