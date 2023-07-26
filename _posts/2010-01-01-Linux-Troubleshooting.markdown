@@ -53,3 +53,7 @@ tags: 计算机
 8. 
 **Q**：Linux远程连接  
 **A**：首推TeamViewer。另一种选择是VNC，建议在<a href="https://www.realvnc.com/" target="_blank">realvnc</a>注册并下载相应系统的server和viewer安装包。在Linux下安装server后，使用`vnclicensewiz`命令设置好账号和密码，然后`service vncserver-x11-serviced start`开启服务，建议将这一命令加入开机启动，参见上面第5条  
+
+9. 
+**Q**：pdf文件压缩  
+**A**：第一种方法使用ghostscript命令，参考命令如`gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -dColorImageResolution=150 -sOutputFile=output.pdf input.pdf`；另一种方法利用convert命令将文件以图片形式压缩，参考命令如`convert -density 200x200 -quality 60 -compress jpeg input.pdf output.pdf`
