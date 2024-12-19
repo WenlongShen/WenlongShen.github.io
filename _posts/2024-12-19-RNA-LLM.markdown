@@ -2,7 +2,7 @@
 layout:     post
 title:      "RNA大语言模型简介"
 subtitle:   "A brief introduction to RNA LLMs"
-date:       2024-12-25
+date:       2024-12-19
 author:     "Wenlong Shen"
 header-img: "img/bg/2024_1.jpg"
 tags: RNA 大语言模型 2024
